@@ -67,9 +67,27 @@ public class Operators {
         }
 
         boolean isCar=false;
-        if(!isCar){
+        if(isCar){
             System.out.println("This is not supposed to happen ");
 
+        }
+
+        isCar=true;
+        boolean wasCar=isCar?true:false;
+        if (wasCar){
+            System.out.println("Wascar is true ");
+        }
+
+        double var1=20.00d;
+        double var2=80.00d;
+        double var3=100.00d*(var1+var2);
+        System.out.println("My values total= "+var3);
+        double var4=var3%40.00d;
+        System.out.println("theRemainder= "+var4);
+        boolean isZero=var4==0?true:false;
+        System.out.println(isZero);
+        if(!isZero){
+            System.out.println("Got some reminder");
         }
     }
 }
