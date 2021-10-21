@@ -3,7 +3,7 @@ package Methods.MethodOverloading;
 public class SecondsAndMinutes {
     public static void main(String[] args) {
         System.out.println(getDuration(65,45));
-        System.out.println(getDuration(5000));
+        System.out.println(getDuration(3945));
     }
 
     public static String getDuration(int minutes,int seconds){
