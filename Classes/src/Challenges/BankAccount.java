@@ -1,4 +1,4 @@
-package Challenges.SimpleCalculator;
+package Challenges;
 
 public class BankAccount {
     private String accountNumber;

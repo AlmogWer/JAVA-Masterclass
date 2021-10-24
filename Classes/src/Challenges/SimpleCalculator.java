@@ -1,4 +1,4 @@
-package Challenges.SimpleCalculator;
+package Challenges;
 
 public class SimpleCalculator {
     private double firstNumber;

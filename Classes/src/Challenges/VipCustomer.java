@@ -1,4 +1,4 @@
-package Challenges.SimpleCalculator;
+package Challenges;
 
 public class VipCustomer {
     private String name;
