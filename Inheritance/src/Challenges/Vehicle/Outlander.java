@@ -1,4 +1,4 @@
-package Challenges;
+package Challenges.Vehicle;
 
 public class Outlander extends Car {
     private int roadServiceMonths;

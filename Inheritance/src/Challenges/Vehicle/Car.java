@@ -1,4 +1,4 @@
-package Challenges;
+package Challenges.Vehicle;
 
 public class Car extends Vehicle{
     private int wheels;

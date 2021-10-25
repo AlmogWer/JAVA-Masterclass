@@ -1,4 +1,4 @@
-package Challenges;
+package Challenges.Vehicle;
 
 public class Vehicle {
     private String name;
