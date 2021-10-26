@@ -9,6 +9,8 @@ public class ListSort2 {
         int[] array1=getIntegers(5);
         int[] array2 =sortIntegers(array1);
         printNumbers(array2);
+//        int[] array= new int[3];
+//        System.out.println(array[0]);
 
     }
 
