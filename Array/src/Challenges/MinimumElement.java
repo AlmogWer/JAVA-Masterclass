@@ -26,6 +26,7 @@ public class MinimumElement {
         for(int i=0;i<numOfElements;i++){
             System.out.println("Please Enter number "+(i+1) +" out of "+numOfElements);
             arrayOfElements[i]=scanner.nextInt();
+            scanner.nextLine();
 
         }
         return arrayOfElements;
