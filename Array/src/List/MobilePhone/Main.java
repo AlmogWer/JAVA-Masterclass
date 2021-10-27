@@ -48,6 +48,11 @@ public class Main {
         System.out.println("Enter phone number: ");
         String phone=scanner.nextLine();
         Contact newContact=Contact.createContact(name,phone);
+        if(mobilePhone.addNewContact(newContact)){
+            System.out.println("New contact added: "+name+ ", phone= "+phone);
+        }else{
+            System.out.println("Cannot add, "+name+" already on file");
+        }
     }
 
     private static void startPhone() {
