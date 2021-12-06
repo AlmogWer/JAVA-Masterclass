@@ -13,7 +13,7 @@ public class Operators {
         result=result*10;//2*10=20
         System.out.println("2*10= "+result);
 
-        result=result/5;//20/5=4
+        result=result/5;//20/5=45
         System.out.println("20/5= "+result);
 
         result = result % 3;// the remainder of (4 %3 )= 1
