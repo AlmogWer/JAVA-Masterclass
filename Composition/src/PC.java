@@ -19,5 +19,15 @@ public class PC {
         monitor.drawPixelAt(1200,50,"yellow");
     }
 
+    public Case getTheCase() {
+        return theCase;
+    }
 
+    public Monitor getMonitor() {
+        return monitor;
+    }
+
+    public Motherboard getMotherboard() {
+        return motherboard;
+    }
 }
