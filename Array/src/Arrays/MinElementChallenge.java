@@ -21,7 +21,7 @@ public class MinElementChallenge {
             array[i] = scanner.nextInt();
         }
 
-        
+
         return array;
     }
 
