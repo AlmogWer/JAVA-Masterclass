@@ -19,11 +19,19 @@ public class Main {
         Thread myRunnableThread = new Thread(new MyRunnable() {
             @Override
             public void run() {
-                System.out.println(ANSI_RED + "Hello from t he anonymous class implementation of run()");
+                System.out.println(ANSI_RED + "Hello from the anonymous class implementation of run()");
+                try {
+                    anotherThread.join();
+                    System.out.println(ANSI_RED + "anotherThread terminated,or timeed out, so im running again");
+                } catch (InterruptedException e) {
+                    System.out.println(ANSI_RED + "I couldn't wait after all, i was interrupted");
+                }
             }
         });
 
         myRunnableThread.start();
+//        anotherThread.interrupt();
+
 
         System.out.println(ANSI_PURPLE + "Hello again from the main thread.");
 
