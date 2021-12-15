@@ -1,5 +1,8 @@
 package Regex;
 
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 public class Main {
     public static void main(String[] args) {
         String string = "I am a string. Yes,I am";
@@ -45,5 +48,28 @@ public class Main {
         System.out.println(hasWhitespace.replaceAll("\\w", "X"));
 
         System.out.println(hasWhitespace.replaceAll("\\b", "X"));
+
+
+        String thirdAlphanumericstring = "abcDeeeF12Ghhiiiijkl99z";
+        System.out.println(thirdAlphanumericstring.replaceAll("^abcDe{3}", "YYY"));
+        System.out.println(thirdAlphanumericstring.replaceAll("^abcDe+", "YYY"));
+        System.out.println(thirdAlphanumericstring.replaceAll("^abcDe*", "YYY"));
+        System.out.println(thirdAlphanumericstring.replaceAll("^abcDe{2,5}", "YYY"));
+        System.out.println(thirdAlphanumericstring.replaceAll("h+i*j", "Y"));
+
+
+        StringBuilder htmlText = new StringBuilder("<h1>My Heading</h1>");
+        htmlText.append("<h2>Sub-heading</h2>");
+        htmlText.append("<p>Another p<p>");
+        htmlText.append("<p>Another p<p>");
+        htmlText.append("<h2>sUMMARY</h2>");
+        htmlText.append("<p>Another p<p>");
+
+        String h2Pattern = "<h2>";
+        Pattern pattern = Pattern.compile(h2Pattern);
+        Matcher matcher = pattern.matcher(htmlText);
+        System.out.println(matcher.matches());
+
+
     }
 }
