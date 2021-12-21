@@ -26,6 +26,7 @@
       <module fileurl="file://$PROJECT_DIR$/Methods/Methods.iml" filepath="$PROJECT_DIR$/Methods/Methods.iml" />
       <module fileurl="file://$PROJECT_DIR$/Modifiers/Modifiers.iml" filepath="$PROJECT_DIR$/Modifiers/Modifiers.iml" />
       <module fileurl="file://$PROJECT_DIR$/MusicDB/MusicDB.iml" filepath="$PROJECT_DIR$/MusicDB/MusicDB.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Networking/Networking.iml" filepath="$PROJECT_DIR$/Networking/Networking.iml" />
       <module fileurl="file://$PROJECT_DIR$/Operators/Operators.iml" filepath="$PROJECT_DIR$/Operators/Operators.iml" />
       <module fileurl="file://$PROJECT_DIR$/Packages/Packages.iml" filepath="$PROJECT_DIR$/Packages/Packages.iml" />
       <module fileurl="file://$PROJECT_DIR$/Polymorphism/Polymorphism.iml" filepath="$PROJECT_DIR$/Polymorphism/Polymorphism.iml" />
